@@ -3,6 +3,10 @@ dist: trusty
 group: edge
 jdk: oraclejdk9
 
+cache:
+  directories:
+  - $HOME/.m2
+
 before_script:
   - cd kafkavisualizer && mvn test
 script:
