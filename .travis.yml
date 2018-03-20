@@ -4,6 +4,6 @@ group: edge
 jdk: oraclejdk9
 
 before_script:
-  - cd jiminhsieh/kafka-visualizer/kafkavisualizer && mvn test
+  - cd kafkavisualizer && mvn test
 script:
   - mvn package
